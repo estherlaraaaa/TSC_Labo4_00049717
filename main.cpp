@@ -31,5 +31,7 @@ int main()
     
     applyDirichlet(m,K,b);
 
+    showMatrix(K);
+
     return 0;
 }
